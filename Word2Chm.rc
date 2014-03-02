@@ -1,0 +1,276 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\Word2Chm.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Word2Chm.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 231, 80
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Word2Chm"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Word2Chm，v 1.5.3",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2009",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,167,52,50,14,WS_GROUP
+    CONTROL         "<a>访问主页</a>",IDC_SYSLINK1,"SysLink",WS_TABSTOP,41,50,37,14
+    LTEXT           "联系:  bob98bob@sohu.com",IDC_STATIC,118,26,90,8
+END
+
+IDD_WORD2CHM_DIALOG DIALOGEX 0, 0, 363, 144
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Word2Chm(1.5.3)"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,302,121,50,14
+    PUSHBUTTON      "生成CHM文件",IDC_BUTTON_CREATE_CHM,159,89,71,14
+    EDITTEXT        IDC_EDIT_WORD,58,21,243,15,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "浏览",IDC_BUTTON_WORD_BROWSE,302,21,50,14
+    EDITTEXT        IDC_EDIT_CHM,58,42,243,15,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "浏览",IDC_BUTTON_CHM_BROWSE,302,42,50,14
+    EDITTEXT        IDC_EDIT_TITLE,59,63,243,15,ES_AUTOHSCROLL
+    LTEXT           "原始Word文件:",IDC_STATIC,7,22,51,11
+    LTEXT           "输出CHM文件:",IDC_STATIC,10,44,44,11
+    LTEXT           "CHM文件标题:",IDC_STATIC,11,65,44,11
+    PUSHBUTTON      "查看CHM文件",IDC_BUTTON_VIEW_CHM,231,89,71,14
+    PUSHBUTTON      "注册购买",IDC_BUTTON_REGISTER,101,121,49,14
+    PUSHBUTTON      "关于",IDC_BUTTON_ABOUT,252,121,50,14
+    PUSHBUTTON      "帮助",IDC_BUTTON_HELP,201,121,50,14
+    PUSHBUTTON      "高级",IDC_BUTTON_ADVANCE,150,121,50,14
+    LTEXT           "",IDC_STATIC_INFO,58,89,91,18
+END
+
+IDD_DIALOG_REGISTER DIALOGEX 0, 0, 251, 101
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "注册"
+FONT 9, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,67,75,50,14
+    PUSHBUTTON      "取消",IDCANCEL,119,75,50,14
+    EDITTEXT        IDC_EDIT_SERIAL,49,42,139,14,ES_AUTOHSCROLL
+    LTEXT           "序列号:",IDC_STATIC,19,45,28,8
+    CONTROL         "<a>购买</a>",IDC_SYSLINK1,"SysLink",WS_TABSTOP,193,61,16,13
+    LTEXT           "25元",IDC_STATIC,217,61,18,11
+    EDITTEXT        IDC_EDIT_MACHINE,49,21,139,14,ES_AUTOHSCROLL
+    LTEXT           "机器码：",IDC_STATIC,19,25,28,8
+END
+
+IDD_DIALOG_ADVANCE DIALOGEX 0, 0, 375, 124
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "高级"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_COPYRIGHT,15,60,341,41,ES_MULTILINE | ES_AUTOHSCROLL
+    LTEXT           "版权信息:",IDC_STATIC,17,51,36,8
+    DEFPUSHBUTTON   "确定",IDOK,262,103,50,14
+    PUSHBUTTON      "取消",IDCANCEL,318,103,50,14
+    CONTROL         "显示页眉",IDC_CHECK_HEADER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,23,48,10
+    CONTROL         "显示页脚",IDC_CHECK_FOOTER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,73,23,48,10
+    CONTROL         "PNG高质量图片",IDC_CHECK_PNG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,249,23,69,10
+    CONTROL         "相关联主题",IDC_CHECK_RELATED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,186,23,56,10
+    CONTROL         "显示编号",IDC_CHECK_LISTNUMBER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,129,23,48,10
+    LTEXT           "Ctrl + Enter 换行",IDC_STATIC,21,104,57,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,5,3,0
+ PRODUCTVERSION 1,5,3,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "BaoSoft"
+            VALUE "FileDescription", "Word2Chm"
+            VALUE "FileVersion", "1.5.3.0"
+            VALUE "InternalName", "Word2Chm.exe"
+            VALUE "LegalCopyright", "BaoSoft, 保留所有权利。"
+            VALUE "OriginalFilename", "Word2Chm.exe"
+            VALUE "ProductName", "Word2Chm"
+            VALUE "ProductVersion", "1.5.3.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+    END
+
+    IDD_WORD2CHM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 357
+        VERTGUIDE, 58
+        VERTGUIDE, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+        HORZGUIDE, 102
+    END
+
+    IDD_DIALOG_REGISTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 94
+    END
+
+    IDD_DIALOG_ADVANCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 368
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 117
+        HORZGUIDE, 60
+        HORZGUIDE, 101
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// HTML
+//
+
+IDR_HTML_REGISTERDIALOG HTML                    "RegisterDialog.htm"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "关于 Word2Chm(&A)..."
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\Word2Chm.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

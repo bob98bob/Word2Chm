@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OfficeWord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Word2Chm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Word2ChmDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HtmlAddin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CApplication.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDocuments.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CListFormat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CParagraph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CParagraphs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWordDocument.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OfficeWord.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Word2Chm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Word2ChmDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CHyperlink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CHyperlinks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wordlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CBookmarks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CBookmark0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CStyles.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CStyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CFont0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CParagraphFormat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSelection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CShape.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CShapes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvanceDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSections.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CHeadersFooters.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CHeaderFooter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWebOptions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CnlineShape.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CnlineShapes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CHorizontalLineFormat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CList0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HtmlAddin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Word2Chm.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Word2Chm.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="app.config" />
+    <None Include="ReadMe.txt" />
+    <None Include="RegisterDialog.htm" />
+    <None Include="..\word2chm.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Word2Chm.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

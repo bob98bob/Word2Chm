@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Word2Chm", "Word2Chm.vcproj", "{0BE5795F-B142-4F78-9817-2BFAEF7BD8A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BE5795F-B142-4F78-9817-2BFAEF7BD8A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0BE5795F-B142-4F78-9817-2BFAEF7BD8A2}.Debug|Win32.Build.0 = Debug|Win32
+		{0BE5795F-B142-4F78-9817-2BFAEF7BD8A2}.Release|Win32.ActiveCfg = Release|Win32
+		{0BE5795F-B142-4F78-9817-2BFAEF7BD8A2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
